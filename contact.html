@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagine IT LLC | Contact</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-800 font-sans">
+    <header class="bg-white shadow-md sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
+        <a href="home.html" class="text-2xl font-bold text-indigo-600">Imagine IT LLC</a>
+        <nav class="hidden md:flex space-x-6 text-lg">
+          <a href="home.html" class="hover:text-indigo-600">Home</a>
+          <a href="services.html" class="hover:text-indigo-600">Services</a>
+          <a href="pricing.html" class="hover:text-indigo-600">Pricing</a>
+          <a href="contact.html" class="hover:text-indigo-600 font-semibold">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="py-20 bg-white">
+      <div class="max-w-4xl mx-auto px-4">
+        <h1 class="text-4xl font-bold text-indigo-700 mb-8 text-center">Get in Touch</h1>
+        <p class="text-center mb-12 max-w-xl mx-auto">
+          Whether you're seeking expert Salesforce consulting or want to partner on our university initiative, we’d love to hear from you.
+        </p>
+        <div class="grid md:grid-cols-2 gap-12">
+          <!-- Consulting Inquiry -->
+          <div>
+            <h2 class="text-xl font-semibold mb-4 text-indigo-700">Consulting Services Inquiry</h2>
+            <form action="https://formsubmit.co/YOUR_CONSULTING_EMAIL" method="POST" class="space-y-4">
+              <input type="text" name="name" placeholder="Full Name" required class="w-full border border-gray-300 rounded-xl p-3" />
+              <input type="email" name="email" placeholder="Email Address" required class="w-full border border-gray-300 rounded-xl p-3" />
+              <textarea name="message" rows="4" placeholder="Tell us about your Salesforce needs" class="w-full border border-gray-300 rounded-xl p-3"></textarea>
+              <input type="hidden" name="_template" value="box" />
+              <button type="submit" class="bg-indigo-600 text-white rounded-xl px-6 py-2 hover:bg-indigo-700">Send</button>
+            </form>
+          </div>
+
+          <!-- University Partnership Inquiry -->
+          <div>
+            <h2 class="text-xl font-semibold mb-4 text-indigo-700">University Partnership Inquiry</h2>
+            <form action="https://formsubmit.co/YOUR_UNIVERSITY_EMAIL" method="POST" class="space-y-4">
+              <input type="text" name="name" placeholder="Full Name" required class="w-full border border-gray-300 rounded-xl p-3" />
+              <input type="email" name="email" placeholder="Email Address" required class="w-full border border-gray-300 rounded-xl p-3" />
+              <textarea name="message" rows="4" placeholder="Tell us about your program or collaboration idea" class="w-full border border-gray-300 rounded-xl p-3"></textarea>
+              <input type="hidden" name="_template" value="box" />
+              <button type="submit" class="bg-indigo-600 text-white rounded-xl px-6 py-2 hover:bg-indigo-700">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-800 text-gray-300 py-6 text-center text-sm">
+      <p>&copy; 2025 Imagine IT LLC. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
