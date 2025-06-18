@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About the Program | Imagine IT LLC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.20/dist/full.css" rel="stylesheet" type="text/css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>About Us | Services</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-gray-50 text-gray-800 font-sans">
-    <header class="bg-white shadow-md sticky top-0 z-50">
+  <body data-theme="business" class="bg-gray-50 text-gray-800 font-sans">
+    <header class="bg-base-100 shadow-md sticky top-0 z-50 backdrop-blur-md bg-opacity-80 border-b border-gray-700">
       <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
-        <a href="home.html" class="text-2xl font-bold text-indigo-600">Imagine IT LLC</a>
-        <nav class="hidden md:flex space-x-6 text-lg">
-          <a href="home.html" class="hover:text-indigo-600">Home</a>
-          <a href="services.html" class="hover:text-indigo-600">Services</a>
-          <a href="pricing.html" class="hover:text-indigo-600">Pricing</a>
-          <a href="contact.html" class="hover:text-indigo-600">Contact</a>
+        <a href="index.html" class="text-2xl font-bold bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 text-transparent bg-clip-text" data-aos="fade-down">Imagine IT</a>
+        <nav class="hidden md:flex space-x-6 text-lg items-center">
+          <a href="index.html" class="transition-colors duration-300 text-indigo-300 hover:text-pink-500 font-semibold">Home</a>
+          <a href="services.html" class="transition-colors duration-300 text-indigo-300 hover:text-pink-500 font-semibold">Services</a>
+          <a href="pricing.html" class="transition-colors duration-300 text-indigo-300 hover:text-pink-500 font-semibold">Pricing</a>
+          <a href="contact.html" class="transition-colors duration-300 text-indigo-300 hover:text-pink-500 font-semibold">Contact</a>
+          <a href="about.html" class="transition-colors duration-300 text-indigo-300 hover:text-pink-500 font-semibold border-b-2 border-pink-500 pb-1">About</a>
         </nav>
       </div>
     </header>
 
     <main class="py-20 px-4 max-w-3xl mx-auto">
-      <h1 class="text-4xl font-bold text-indigo-700 mb-6 text-center">About the Program</h1>
+      <h1 class="text-4xl font-bold text-indigo-700 mb-6 text-center">About Us</h1>
       <article class="space-y-6 text-lg">
         <p>
-          Breaking into tech shouldn’t feel impossible. At Imagine IT LLC, we believe in creating real-world opportunities for aspiring developers and technologists through our University Partnership Program.
+          Breaking into tech shouldn’t feel impossible. At Imagine IT, we believe in creating real-world opportunities for aspiring developers and technologists through our University Partnership Program.
         </p>
         <p>
           We partner with universities to give students and recent graduates the chance to gain professional experience that truly matters. Our program isn’t about busy work — participants get to work on actual projects that help solve real problems for real clients.
@@ -42,7 +50,7 @@
       <section class="mt-16 flex flex-col items-center text-center">
         <img src="your-photo.jpg" alt="Simone Yang-Stimpson" class="rounded-full h-32 w-32 object-cover mb-4 shadow-md" />
         <h2 class="text-xl font-semibold">Simone Yang-Stimpson</h2>
-        <p class="text-gray-600">Founder & Salesforce Consultant</p>
+        <p class="text-gray-600">Founder & Salesforce Solution Architect</p>
         <p class="text-gray-600">Email: <a href="mailto:simone@example.com" class="text-indigo-600 underline">simone@example.com</a></p>
         <p class="text-gray-600">Phone: (123) 456-7890</p>
       </section>
