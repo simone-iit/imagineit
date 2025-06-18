@@ -2,37 +2,31 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Tailwind + DaisyUI -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.20/dist/full.css" rel="stylesheet" />
-    <!-- AOS (Animate On Scroll) -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Imagine IT | Pricing</title>
-
     <style>
       html { scroll-behavior: smooth; }
     </style>
   </head>
 
   <body class="bg-gray-50 text-gray-900 font-sans">
-    <!-- ────────────────  Header (Themed)  ──────────────── -->
+    <!-- Header -->
     <header data-theme="business" class="bg-base-100 border-b border-gray-700 shadow-md sticky top-0 z-50 backdrop-blur-md bg-opacity-80">
       <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
-        <a href="home.html"
-           class="text-2xl font-bold bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 text-transparent bg-clip-text"
-           data-aos="fade-down">Imagine IT</a>
-
+        <a href="home.html" class="text-2xl font-bold bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 text-transparent bg-clip-text" data-aos="fade-down">Imagine IT</a>
         <nav class="hidden md:flex space-x-6 text-lg items-center">
-          <a href="index.html"    class="transition-colors duration-300 text-indigo-300 hover:text-pink-500 font-semibold">Home</a>
+          <a href="index.html" class="transition-colors duration-300 text-indigo-300 hover:text-pink-500 font-semibold">Home</a>
           <a href="services.html" class="transition-colors duration-300 text-indigo-300 hover:text-pink-500 font-semibold">Services</a>
-          <a href="pricing.html"  class="transition-colors duration-300 text-indigo-300 hover:text-pink-500 font-semibold border-b-2 border-pink-500 pb-1">Pricing</a>
-          <a href="contact.html"  class="transition-colors duration-300 text-indigo-300 hover:text-pink-500 font-semibold">Contact</a>
-          <a href="about.html"    class="transition-colors duration-300 text-indigo-300 hover:text-pink-500 font-semibold">About</a>
+          <a href="pricing.html" class="transition-colors duration-300 text-indigo-300 hover:text-pink-500 font-semibold border-b-2 border-pink-500 pb-1">Pricing</a>
+          <a href="contact.html" class="transition-colors duration-300 text-indigo-300 hover:text-pink-500 font-semibold">Contact</a>
+          <a href="about.html" class="transition-colors duration-300 text-indigo-300 hover:text-pink-500 font-semibold">About</a>
         </nav>
       </div>
     </header>
 
-    <!-- ────────────────  Pricing Cards (Only Cards Themed)  ──────────────── -->
+    <!-- Pricing Plans -->
     <main class="py-20 px-4 max-w-6xl mx-auto bg-white">
       <h1 class="text-4xl font-bold text-indigo-700 mb-12 text-center">Quickstart Pricing Plans</h1>
 
@@ -50,7 +44,7 @@
                 <li>Custom Homepage for 1 App</li>
                 <li>Dashboard with 10 Key Reports</li>
                 <li>Email Integration & Data Load</li>
-                <li>Post-Launch Support Call</li>
+                <li>Post‑Launch Support Call</li>
               </ul>
             </div>
             <div class="text-center mt-auto">
@@ -69,7 +63,7 @@
               <ul class="text-sm space-y-2 mb-6 text-white">
                 <li><em>Everything in Starter</em></li>
                 <li>UAT Support & Feedback Loop</li>
-                <li>Role-Based Training Materials</li>
+                <li>Role‑Based Training Materials</li>
                 <li>Change Governance Processes</li>
                 <li>Automation with 2 Custom Flows</li>
                 <li>Admin Handoff & Documentation</li>
@@ -102,7 +96,7 @@
       </div>
     </main>
 
-    <!-- ────────────────  Logos Section  ──────────────── -->
+    <!-- Trusted by forward-thinking organizations -->
     <section class="bg-base-100 py-16">
       <div class="max-w-6xl mx-auto px-4 text-center">
         <h2 class="text-3xl font-bold text-indigo-300 mb-6">Trusted by forward-thinking organizations</h2>
@@ -116,14 +110,17 @@
       </div>
     </section>
 
+    <!-- Footer -->
     <footer class="bg-gray-800 text-gray-300 py-6 text-center text-sm">
       <p>&copy; 2025 Imagine IT LLC. All rights reserved.</p>
     </footer>
+
+    <!-- Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-document.addEventListener('DOMContentLoaded', function () {
-  AOS.init({ once: false });
-});
-</script>
-</body>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        AOS.init({ once: false });
+      });
+    </script>
+  </body>
 </html>
